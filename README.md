@@ -29,10 +29,13 @@ Building the Vagrant binaries
 After Vagrant is built
 ----------------------
 
-7. Copy all files from the Ruby and Devkit installation's bin directories into the #dist#\bin directory.
+7. Copy the following directories from the Ruby installation to the distribution:
 
-8. Copy all gems from the Ruby installation dir to the distribution's gems dir:
-      lib\ruby\gems\2.1.0\gems -> #dist#\lib\ruby\gems\gems
-	  
+  bin -> #dist#\bin
+  lib\ruby\gems\2.1.0\gems -> #dist#\lib\ruby\gems\gems
+  lib\ruby\gems\2.1.0\specification -> #dist#\lib\ruby\gems\specification
+  
+8. Copy the following directories from the DevKit installation to the distribution:
 
-	  
+  bin -> #dist#\bin
+  mingw -> #dist#\mingw
