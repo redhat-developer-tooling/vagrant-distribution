@@ -47,3 +47,7 @@ Installation
 9. Add the #dist#\bin directory to the path.
 
 10. Set the RUBYLIB environment variable to #dist#\lib\ruby\2.1.0.
+
+11. Set the GEM_HOME environment variable to #dist#\lib\ruby\gems.
+
+12. Test the installation by running vagrant -version.
