@@ -34,8 +34,16 @@ After Vagrant is built
   bin -> #dist#\bin
   lib\ruby\gems\2.1.0\gems -> #dist#\lib\ruby\gems\gems
   lib\ruby\gems\2.1.0\specification -> #dist#\lib\ruby\gems\specification
+  lib\ruby\2.1.0 -> #dist#\lib\ruby\2.1.0
   
 8. Copy the following directories from the DevKit installation to the distribution:
 
   bin -> #dist#\bin
   mingw -> #dist#\mingw
+
+  
+Installation
+------------
+9. Add the #dist#\bin directory to the path.
+
+10. Set the RUBYLIB environment variable to #dist#\lib\ruby\2.1.0.
