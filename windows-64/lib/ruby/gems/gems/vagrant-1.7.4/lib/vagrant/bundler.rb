@@ -18,8 +18,7 @@ module Vagrant
     end
 
     def initialize
-      @enabled = true if ENV["VAGRANT_INSTALLER_ENV"] ||
-        ENV["VAGRANT_FORCE_BUNDLER"]
+      @enabled = true
       @enabled  = !::Bundler::SharedHelpers.in_bundle? if !@enabled
       @monitor  = Monitor.new
 
