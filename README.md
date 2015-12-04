@@ -39,15 +39,18 @@ After Vagrant is built
 8. Copy the following directories from the DevKit installation to the distribution:
 
   bin -> #dist#\bin
-  mingw -> #dist#\mingw
+  
+9. Copy the following files from the DevKit installation to the distribution:
+   
+  mingw\bin\bsdtar.exe -> #dist#\bin
 
   
 Installation
 ------------
-9. Add the #dist#\bin directory to the path.
+10. Add the #dist#\bin directory to the path.
 
-10. Set the RUBYLIB environment variable to #dist#\lib\ruby\2.1.0.
+11. Set the RUBYLIB environment variable to #dist#\lib\ruby\2.1.0.
 
-11. Set the GEM_HOME environment variable to #dist#\lib\ruby\gems.
+12. Set the GEM_HOME environment variable to #dist#\lib\ruby\gems.
 
-12. Test the installation by running vagrant -version.
+13. Test the installation by running vagrant -version.
