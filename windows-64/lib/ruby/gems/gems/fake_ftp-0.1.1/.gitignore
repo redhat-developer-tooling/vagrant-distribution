@@ -1,7 +1,0 @@
-.idea
-pkg/*
-*.gem
-.bundle
-.DS_Store
-.rbenv-version
-.rbenv-gemsets

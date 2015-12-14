@@ -1,5 +1,5 @@
 # vagrant-distribution
-This project contains a Vagrant distribution for the Windows platform.  
+This project contains a Vagrant distribution for the Windows platform.
 
 Currently we only provide binaries for 64 bit Windows.  Instructions for assembling this distribution are as follows:
 
@@ -8,49 +8,23 @@ Currently we only provide binaries for 64 bit Windows.  Instructions for assembl
 Building the Vagrant binaries
 -----------------------------
 
-1. Download and install the x64 version of Ruby 2.1.7 from http://rubyinstaller.org/downloads/ (tick the box to add Ruby to your path)
+1. Clone the Vagrant installers repository from https://github.com/redhat-developer-tooling/vagrant-installers, then git checkout the v1.7.4 branch:
+     git checkout v1.7.4
 
-2. Download and install the x64 version of Ruby Devkit from http://rubyinstaller.org/downloads/
+2. Follow the README instructions to build it
 
-3. In the Ruby program group, open "Start Command Prompt with Ruby", then change into the directory where you installed the devkit and run:
-     ruby dk.rb init
-	 ruby dk.rb install
-	 
-4. Clone the Vagrant repository from https://github.com/mitchellh/vagrant, then git checkout the 1.7.4 branch:
-     git checkout -b v1.7.4 v1.7.4
-
-5. From the Ruby command prompt, install version 1.10.5 of the bundler gem:	 
-     gem install bundler -v 1.10.5
-	 
-6. From the Ruby command prompt, run the following in the Vagrant project directory:
-     bundle install
-	 rake install
 
 After Vagrant is built
 ----------------------
 
-7. Copy the following directories from the Ruby installation to the distribution:
+3. Copy the following directories to the distribution:
 
   bin -> #dist#\bin
-  lib\ruby\gems\2.1.0\gems -> #dist#\lib\ruby\gems\gems
-  lib\ruby\gems\2.1.0\specification -> #dist#\lib\ruby\gems\specification
-  lib\ruby\2.1.0 -> #dist#\lib\ruby\2.1.0
-  
-8. Copy the following directories from the DevKit installation to the distribution:
-
-  bin -> #dist#\bin
-  
-9. Copy the following files from the DevKit installation to the distribution:
-   
-  mingw\bin\bsdtar.exe -> #dist#\bin
+  embedded -> #dist#\embedded
 
   
 Installation
 ------------
-10. Add the #dist#\bin directory to the path.
+4. Add the #dist#\bin directory to the path.
 
-11. Set the RUBYLIB environment variable to #dist#\lib\ruby\2.1.0.
-
-12. Set the GEM_HOME environment variable to #dist#\lib\ruby\gems.
-
-13. Test the installation by running vagrant -version.
+5. Test the installation by running vagrant --version.

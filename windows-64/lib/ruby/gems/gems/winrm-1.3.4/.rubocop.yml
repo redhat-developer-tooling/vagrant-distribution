@@ -1,9 +1,0 @@
-AllCops:
-  Exclude:
-    - 'lib/winrm/winrm_service.rb'
-
-Style/Encoding:
-  Enabled: true
-
-Metrics/LineLength:
-  Max: 100
