@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"tmp_path:ETI""Vagrant::Environment#tmp_path;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"8The directory where temporary files for Vagrant go.;T:
+@fileI"lib/vagrant/environment.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Vagrant::Environment;FcRDoc::NormalClass0

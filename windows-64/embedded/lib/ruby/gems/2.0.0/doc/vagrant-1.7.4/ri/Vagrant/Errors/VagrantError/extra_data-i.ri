@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"extra_data:ETI"-Vagrant::Errors::VagrantError#extra_data;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@This is extra data passed into the message for translation.;T:
+@fileI"lib/vagrant/errors.rb;T:0@omit_headings_from_table_of_contents_below0F@I""Vagrant::Errors::VagrantError;FcRDoc::NormalClass0

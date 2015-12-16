@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"config:ETI" Vagrant::Vagrantfile#config;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"AThis is the configuration loaded as-is given the loader and ;TI"keys to #initialize.;T:
+@fileI"lib/vagrant/vagrantfile.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Vagrant::Vagrantfile;FcRDoc::NormalClass0

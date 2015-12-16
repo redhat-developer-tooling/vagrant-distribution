@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/ruben/mingw-w64/mingw32mingw32/mingw32/share/gcc-4.7.2/python'
-libdir = '/home/ruben/mingw-w64/mingw32mingw32/mingw32/lib/../lib'
+pythondir = '/home/ruben/mingw-w64/mingw64mingw64/mingw64/share/gcc-4.7.2/python'
+libdir = '/home/ruben/mingw-w64/mingw64mingw64/mingw64/lib/../lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't

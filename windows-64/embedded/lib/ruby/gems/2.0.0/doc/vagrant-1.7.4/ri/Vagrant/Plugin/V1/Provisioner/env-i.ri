@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"env:ETI")Vagrant::Plugin::V1::Provisioner#env;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"BThe environment which provisioner is running in. This is the ;TI"4action environment, not a Vagrant::Environment.;T:
+@fileI")lib/vagrant/plugin/v1/provisioner.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%Vagrant::Plugin::V1::Provisioner;FcRDoc::NormalClass0

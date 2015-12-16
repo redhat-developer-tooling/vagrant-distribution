@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"boxes_path:ETI"$Vagrant::Environment#boxes_path;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"*The directory where boxes are stored.;T:
+@fileI"lib/vagrant/environment.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Vagrant::Environment;FcRDoc::NormalClass0
